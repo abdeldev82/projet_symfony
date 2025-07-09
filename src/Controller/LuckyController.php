@@ -9,7 +9,7 @@ use Symfony\Component\Mime\Email;
 
 class LuckyController
 {
-    #[Route('/lucky/number')]
+    #[Route('/lucky/number1')]
     
     public function number(): Response
     {
